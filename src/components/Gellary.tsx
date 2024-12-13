@@ -21,7 +21,7 @@ const Gellary = () => {
         </div>
 
         {/* Right Grid - 4 Small Images */}
-        <div className="flex flex-wrap justify-between gap-4 w-full lg:w-[648px]">
+        <div className="flex flex-wrap justify-between gap-4 w-full lg:w-[648px] sm:grid-cols-2">
           {/* Small Image 1 */}
           <div className="w-[48%] h-[312px]">
             <img
