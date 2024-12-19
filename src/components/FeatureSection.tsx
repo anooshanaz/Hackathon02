@@ -1,4 +1,4 @@
-// components/FeaturesSection.js
+
 export default function FeaturesSection() {
     return (
         
