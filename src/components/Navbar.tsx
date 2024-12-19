@@ -56,7 +56,8 @@ const Navbar = () => {
             <Link href="/contact" className="hover:text-cyan-600">Contact</Link>
           </nav>
           {/* Contact Number */}
-          <p className="mt-4 md:mt-0 text-sm  md:text-base text-gray-900  bg-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded">         [808] 553-0111-1111
+          <p className="hidden md:block mt-4 md:mt-0 text-sm md:text-base text-gray-900 bg-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded">
+            [808] 553-0111-1111
           </p>
         </div>
       </div>
