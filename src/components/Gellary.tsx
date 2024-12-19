@@ -4,7 +4,7 @@ import React from 'react';
 const Gellary = () => {
   return (
     <section className="bg-white py-8 sm:mb-96 lg:mb-1 md:mb-5">
-      <div className="container mx-auto max-w-[1320px] h-[648px] flex flex-wrap lg:flex-nowrap gap-4">
+      <div className="container mx-auto max-w-[1320px] lg:h-[648px] md:h-auto h-screen flex flex-wrap lg:flex-nowrap gap-4">
         {/* Vertical Text */}
         {/* <div className="lg:rotate-[-90deg] lg:mb-0 mb-4">
           <p className="text-gray-600 font-medium tracking-wide text-lg">
@@ -16,7 +16,7 @@ const Gellary = () => {
           <img
             src="/t1.jpg"
             alt="Large Chair"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110 cursor-zoom-in"
           />
         </div>
 
@@ -27,7 +27,7 @@ const Gellary = () => {
             <img
               src="/t2.jpg"
               alt="Chair 1"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110"
             />
           </div>
           {/* Small Image 2 */}
@@ -35,7 +35,7 @@ const Gellary = () => {
             <img
               src="/t5.jpg"
               alt="Chair 2"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110"
             />
           </div>
           {/* Small Image 3 */}
@@ -43,7 +43,7 @@ const Gellary = () => {
             <img
               src="/t4.jpg"
               alt="Chair 3"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110"
             />
           </div>
           {/* Small Image 4 */}
@@ -51,7 +51,7 @@ const Gellary = () => {
             <img
               src="/t3.jpg"
               alt="Chair 4"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110"
             />
           </div>
         </div>
