@@ -15,7 +15,7 @@ const SPage = () => {
     <section className="bg-gray-200 py-8">
       <div className="container mx-auto max-w-[1324px] px-4">
         {/* Newsletter Section */}
-        <div className="w-full max-w-lg bg-gray-200  rounded-lg p-6 mx-auto mb-10">
+        <div className="w-full max-w-sm bg-gray-200  rounded-lg p-6 mx-auto mb-10">
           <h1 className="text-3xl font-semibold text-gray-800 text-center mb-6">
             Or Subscribe to the Newsletter
           </h1>
@@ -23,9 +23,9 @@ const SPage = () => {
             <input
               type="email"
               placeholder="Email Address..."
-              className="px-4 py-2 w-64 text-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+              className="px-2 py-2 w-64 text-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400"
             />
-            <button className="px-6 py-2 bg-cyan-600 text-white uppercase font-medium hover:bg-cyan-700">
+            <button className="px-2 py-2 bg-cyan-600 text-white uppercase font-medium hover:bg-cyan-700">
               Submit
             </button>
           </div>
